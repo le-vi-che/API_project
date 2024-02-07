@@ -83,15 +83,6 @@ gradle clean test
 <img title="Allure Tests" src="images/screen/AlCases.png" width="850">   
 </p>
 
-## 📊 Графики
-
-<p align="center">   
-<img title="Allure Graphics1" src="images/screen/AlGraph1.png" width="850">  
-<img title="Allure Graphics2" src="images/screen/AlGraph2.png" width="850">  
-</p>
-
-<a id="интеграция-с-allure-testops"></a>
-
 ## <img alt="Allure_TO" height="25" src="images/logo/Allure_TO.svg" width="25"/> </a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud">Allure TestOps</a>
 
 ## 🖨️ Основная страница отчёта
@@ -99,14 +90,6 @@ gradle clean test
 <p align="center">  
 <img title="Allure TestOps Dashboard" src="images/screen/OpsDashboard.png" width="850">  
 </p>  
-
-## 📄 Автоматизированные тест-кейсы
-
-<p align="center">  
-<img title="Allure Tests" src="images/screen/OpsTestCases.png" width="850">  
-</p>
-
-<a id="интеграция-с-jira"></a>
 
 ## <img alt="Allure" height="25" src="images/logo/Jira.svg" width="25"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud">Jira</a>
 
