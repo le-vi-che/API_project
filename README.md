@@ -67,7 +67,7 @@
 
 <a id="запуск-тестов-сборка-в-jenkins"></a>
 
-## <img alt="Jenkins" height="25" src="images/logo/Jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/reqresin-product-autotests/)
+## <img alt="Jenkins" height="25" src="images/logo/Jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.autotests.cloud)
 
 <p align="center">  
 <img src="images/screen/JenkinsMain.png" alt="Jenkins" width="950"/></a>  
@@ -87,7 +87,7 @@ gradle clean test
 
 <a id="allure-report"></a>
 
-## <img alt="Allure" height="25" src="images/logo/Allure.svg" width="25"/> </a>Интеграция с <a target="_blank" href="https://jenkins.autotests.cloud/job/reqresin-product-autotests/allure/">Allure Report</a>
+## <img alt="Allure" height="25" src="images/logo/Allure.svg" width="25"/> </a>Интеграция с <a target="_blank" href="https://jenkins.autotests.cloud">Allure Report</a>
 
 ## 🖨️ Основная страница отчёта
 
@@ -110,7 +110,7 @@ gradle clean test
 
 <a id="интеграция-с-allure-testops"></a>
 
-## <img alt="Allure_TO" height="25" src="images/logo/Allure_TO.svg" width="25"/> </a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/3737/dashboards">Allure TestOps</a>
+## <img alt="Allure_TO" height="25" src="images/logo/Allure_TO.svg" width="25"/> </a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud">Allure TestOps</a>
 
 ## 🖨️ Основная страница отчёта
 
@@ -126,7 +126,7 @@ gradle clean test
 
 <a id="интеграция-с-jira"></a>
 
-## <img alt="Allure" height="25" src="images/logo/Jira.svg" width="25"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-922">Jira</a>
+## <img alt="Allure" height="25" src="images/logo/Jira.svg" width="25"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud">Jira</a>
 
 <p align="center">  
 <img title="Jira" src="images/screen/JiraMain.png" width="">  
