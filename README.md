@@ -1,7 +1,7 @@
 <h1 >Проект по автоматизации API тестирования сервиса <a href="https://reqres.in/ ">Reqres.in</a></h1>
 
 <p align="center">  
-<img src="images/logo/ReqresIn.png" alt="MainLogo" width="950"/></a>  
+<img src="media/reqres.in.png" alt="MainLogo" width="950"/></a>  
 </p>
 
 # 🧾 Содержание:
