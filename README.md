@@ -18,10 +18,7 @@
 <a id="технологии-и-инструменты"></a>
 
 ## 🔨 Технологии и инструменты:
-
-| Java                                                                                                     | IntelliJ  <br>  Idea                                                                                               | GitHub                                                                                                     | JUnit 5                                                                                                           | Gradle                                                                                                     | RestAssured                                                                                                               | Allure <br> Report                                                                                                         | Jenkins                                                                                                          | Jira                                                                                                                                    | Telegram                                                                                                            |                                                                                            Allure <br> TestOps |
-|:---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------:|
-| <a href="https://www.java.com/"><img src="images/logo/Java.svg" width="50" height="50"  alt="Java"/></a> | <a href="https://www.jetbrains.com/idea/"><img src="images/logo/Idea.svg" width="50" height="50"  alt="IDEA"/></a> | <a href="https://github.com/"><img src="images/logo/GitHub.svg" width="50" height="50"  alt="Github"/></a> | <a href="https://junit.org/junit5/"><img src="images/logo/Junit5.svg" width="50" height="50"  alt="JUnit 5"/></a> | <a href="https://gradle.org/"><img src="images/logo/Gradle.svg" width="50" height="50"  alt="Gradle"/></a> | <a href="https://rest-assured.io/"><img src="images/logo/RestAssured.svg" width="50" height="50"  alt="RestAssured"/></a> | <a href="https://github.com/allure-framework"><img src="images/logo/Allure.svg" width="50" height="50"  alt="Allure"/></a> | <a href="https://www.jenkins.io/"><img src="images/logo/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a> | <a href="https://www.atlassian.com/software/jira/"><img src="images/logo/Jira.svg" width="50" height="50" alt="Java" title="Java"/></a> | <a href="https://web.telegram.org/"><img src="images\logo\Telegram.svg" width="50" height="50" alt="Telegram"/></a> | <a href="https://qameta.io/"><img src="images\logo\Allure_TO.svg" width="50" height="50" alt="Allure_TO"/></a> |
+ <a href="https://www.java.com/"><img src="/media/java.svg" width="50" height="50"  alt="Java"/></a>  <a href="https://www.jetbrains.com/idea/"><img src="media/IJ.svg" width="50" height="50"  alt="IDEA"/></a>  <a href="https://github.com/"><img src="media/gitHub.svg" width="50" height="50"  alt="Github"/></a>  <a href="https://junit.org/junit5/"><img src="media/jUnit5.svg" width="50" height="50"  alt="JUnit 5"/></a>  <a href="https://gradle.org/"><img src="media/gradle.svg" width="50" height="50"  alt="Gradle"/></a>  <a href="https://github.com/allure-framework"><img src="media/allure.svg" width="50" height="50"  alt="Allure"/></a>  <a href="https://www.jenkins.io/"><img src="media/jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>  <a href="https://www.atlassian.com/software/jira/"><img src="media/Jira.svg" width="50" height="50" alt="Jira" title="Jira"/></a>  <a href="https://web.telegram.org/"><img src="media/telegram.svg" width="50" height="50" alt="Telegram"/></a> 
 
 В данном проекте автотесты написаны на **Java**. Для сборки проекта в
 среде IntelliJ IDEA используется **Gradle**. **JUnit 5** задействован в качестве фреймворка модульного тестирования, а
@@ -34,18 +31,12 @@
 
 ## 🏁 Реализованные проверки:
 
-### Авторизация:
+- Успешное создание нового пользователя
+- Успешная регистрация пользователя
+- Отправка на регистрацию с незаполненными email/password
+- Обновление данных пользователя
+- Удаление пользователя
 
-- Успешная с Email и Password
-- Неуспешная без Email
-- Неуспешная без Password
-- Неуспешная с данными неизвестного пользователя
-
-### Удаление сотрудника
-
-### Список ресурсов
-
-### Список пользователей
 
 <a id="запуск-тестов-сборка-в-jenkins"></a>
 
