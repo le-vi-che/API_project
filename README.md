@@ -40,7 +40,7 @@
 
 <a id="запуск-тестов-сборка-в-jenkins"></a>
 
-## <img alt="Jenkins" height="25" src="media/jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.autotests.cloud)
+## <img alt="Jenkins" height="25" src="media/jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/API_prj_emonovaev/)
 
 <p align="center">  
 <img src="images/screen/JenkinsMain.png" alt="Jenkins" width="950"/></a>  
