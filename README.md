@@ -43,12 +43,8 @@
 ## <img alt="Jenkins" height="25" src="media/jenkins.svg" width="25"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/API_prj_emonovaev/)
 
 <p align="center">  
-<img src="images/screen/JenkinsMain.png" alt="Jenkins" width="950"/></a>  
+<img src="media/jenkins_job.png" alt="Jenkins" width="950"/></a>  
 </p>
-
-## 📋 Параметры сборки в Jenkins:
-
-- _TASK (Задачи, по умолчанию Smoke_test)_
 
 <a id="запуск-тестов-из-терминала"></a>
 
@@ -60,27 +56,33 @@ gradle clean test
 
 <a id="allure-report"></a>
 
-## <img alt="Allure" height="25" src="media/allure.svg" width="25"/> </a>Интеграция с <a target="_blank" href="https://jenkins.autotests.cloud">Allure Report</a>
+## <img alt="Allure" height="25" src="media/allure.svg" width="25"/> </a>Интеграция с <a target="_blank" href="https://jenkins.autotests.cloud/job/API_prj_emonovaev/6/allure/#">Allure Report</a>
 
-## 🖨️ Основная страница отчёта
-
+- Основная страница отчёта
 <p align="center">  
-<img title="Allure Overview Dashboard" src="images/screen/AlMain.png" width="850">  
+<img title="Allure Overview Dashboard" src="media/allure.png" width="850">  
 </p>  
 
-## 📄 Тест-кейсы
+- Тест-кейсы
 
 <p align="center">  
-<img title="Allure Tests" src="images/screen/AlCases.png" width="850">   
+<img title="Allure Tests" src="media/allure_tests.png" width="850">   
 </p>
 
 ## <img alt="Allure_TO" height="25" src="media/AllureTestOps.svg" width="25"/> </a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud">Allure TestOps</a>
 
-## 🖨️ Основная страница отчёта
+- Основная страница отчёта
 
 <p align="center">  
-<img title="Allure TestOps Dashboard" src="images/screen/OpsDashboard.png" width="850">  
+<img title="Allure TestOps Dashboard" src="media/dashboard.png" width="850">  
 </p>  
+
+- Страница запуска
+  
+<p align="center">  
+<img title="Allure TestOps launch" src="media/allure_launch.png" width="850">  
+</p
+
 
 ## <img alt="Allure" height="25" src="media/Jira.svg" width="25"/></a> Интеграция с <a target="_blank" href="https://jira.autotests.cloud">Jira</a>
 
@@ -96,7 +98,7 @@ ____
 
 ____
 <p align="center">  
-<img title="TG Overview" src="images/screen/TGMain.png" width="550">  
+<img title="TG Overview" src="media/tg.png" width="400">  
 </p>
 
 ____
