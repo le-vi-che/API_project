@@ -1,7 +1,9 @@
 package tests;
 
+import config.apiConfig;
 import io.qameta.allure.Owner;
 import models.*;
+import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static io.qameta.allure.Allure.step;
@@ -18,6 +20,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Owner("emonovaev")
 public class ApiTests {
 
+    private static apiConfig config = ConfigFactory.create(apiConfig.class);
+
     @Test
     @DisplayName("Успешное создание нового пользователя")
     void successfulCreateUserTest() {
@@ -27,8 +31,7 @@ public class ApiTests {
         userData.setJob("qa");
 
         CreateUserResponseModel response = step("Запрос на создание нового пользователя", ()->
-                given()
-                        .spec(createUserRequestSpec)
+                given(createUserRequestSpec)
                         .body(userData)
 
                         .when()
@@ -56,12 +59,11 @@ public class ApiTests {
     void successfulRegisterUserTest() {
 
         RegistrationBodyModel authData = new RegistrationBodyModel();
-        authData.setEmail("eve.holt@reqres.in");
-        authData.setPassword("pistol");
+        authData.setEmail(config.authEmail());
+        authData.setPassword(config.authPassword());
 
         RegistrationResponseModel response = step("Запрос на регистрацию существующего пользователя", ()->
-         given()
-                .spec(registerRequestSpec)
+         given(registerRequestSpec)
                 .body(authData)
 
                 .when()
@@ -83,9 +85,7 @@ public class ApiTests {
     void emptyAuthDataTest() {
 
         Error400Model response = step("Передача запроса на регистрацию с незаполненными email/password", ()->
-        given()
-                .spec(registerRequestSpec)
-
+        given(registerRequestSpec)
                 .when()
                 .post()
 
